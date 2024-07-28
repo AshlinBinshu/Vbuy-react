@@ -6,11 +6,12 @@ const Navbar = () => {
     {/* Logo and site */}
      <div className="flex justify-between items-center">
         {/* Add image later */}
+        <img src="/logo.png" alt="logo" className="w-[30px]"/>
         <Link to="/" className="font-bold text-3xl">Vbuy</Link>
      </div>
 
      {/* list of other tabs */}
-     <ul className="flex gap-6 text-lg font font-semibold text-gray-400">
+     <ul className="flex gap-6 text-lg font font-semibold text-gray-400 ml-8 sm:ml-0">
         <Link to="/" className="hover:text-black cursor-pointer sm:p-2">About</Link>
         <Link to="/" className="hover:text-black cursor-pointer sm:p-2">Contact</Link>
         <Link to="/" className="hover:text-black cursor-pointer sm:p-2">Login</Link>
