@@ -12,11 +12,12 @@ export default function App() {
     <Navbar/>
       <Routes>
          <Route path="/" element={<Home/>}/>
-         <Route path="login" element={<Login/>}/>
+         <Route path="/login" element={<Login/>}/>
          <Route path="/signup" element={<Signup/>}/>
          <Route path="/seller/profile" element={<SellerDashboard/>}/>
          <Route path="/buyer/profile" element={<BuyerDashboard/>}/>
       </Routes>
+      {/* FOOTER */}
     </BrowserRouter>
     </>
   )
